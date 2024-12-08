@@ -8,6 +8,7 @@ export const projectsData: ProjectItem[] = [
     image: "work-lyft.png",
     tech: ["React", "Node.js", "MongoDB", "Express"],
     github: "https://github.com/Vishaldhakrey/worklyft",
+    live: "https://worklyft.onrender.com",  // Add live link here
     details: {
       problem:
         "Traditional job portals are outdated and lack modern user-friendly features.",
@@ -29,6 +30,7 @@ export const projectsData: ProjectItem[] = [
     image: "spotify.jpg",
     tech: ["Node.js", "Express", "MongoDB"],
     github: "https://github.com/Vishaldhakrey/spotify-backend",
+    live: "https://github.com/Vishaldhakrey/spotify-backend",  // Add live link here
     details: {
       problem:
         "Need for a backend system for a scalable music streaming platform.",
@@ -49,6 +51,7 @@ export const projectsData: ProjectItem[] = [
     image: "web-lead-extension.webp",
     tech: ["JavaScript", "HTML", "CSS", "Chrome Extensions API"],
     github: "https://github.com/Vishaldhakrey/web-leads-extension",
+    live: "https://github.com/Vishaldhakrey/web-leads-extension",  // Add live link here
     details: {
       problem:
         "Manual web lead generation is time-consuming and inefficient.",
@@ -69,6 +72,7 @@ export const projectsData: ProjectItem[] = [
     image: "notespace.jpg",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/Vishaldhakrey/NoteSpace",
+    live: "https://github.com/Vishaldhakrey/NoteSpace",  // Add live link here
     details: {
       problem: "Existing note-taking apps lack personalization and advanced features.",
       solution: "Created a personalized note-taking app with essential features like pinning and editing.",

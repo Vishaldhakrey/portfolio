@@ -28,5 +28,6 @@ export const timelineData: TimelineItem[] = [
     company: "Udemy/Youtube",
     description: "Working as a Full-Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications.",
     icon: "work",
-  },  
+  },
+
 ];
