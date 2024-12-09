@@ -78,7 +78,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Location</p>
-                  <p className="text-gray-900 dark:text-white font-medium">Bangalore, India</p>
+                  <p className="text-gray-900 dark:text-white font-medium">Gurugram, India</p>
                 </div>
               </motion.div>
             </div>
