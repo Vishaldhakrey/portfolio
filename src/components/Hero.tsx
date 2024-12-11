@@ -56,7 +56,7 @@ export default function Hero() {
             {/* Download Resume Button */}
             <motion.a
               target="_blank"
-              href="https://drive.google.com/file/d/1FldS8VvMk0d2ysLFjLfGmZmbJKeXaVzE/view?usp=sharing"  // Update this with the actual path to your resume
+              href="https://drive.google.com/file/d/1OSleOK_8xWlLZEO85TtJTQuZYNDQVxZq/view?usp=sharing"  // Update this with the actual path to your resume
               download
               className="px-8 py-3 rounded-md border-2 border-gray-300 text-gray-800 hover:bg-gray-200 transition-all duration-300 dark:border-gray-600 dark:text-white dark:hover:bg-gray-700"
               whileHover={{ scale: 1.05 }}
