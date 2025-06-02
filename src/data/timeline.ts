@@ -23,11 +23,17 @@ export const timelineData: TimelineItem[] = [
     icon: "education",
   },
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     title: "Learning Full Stack Developement",
     company: "Udemy/Youtube",
     description: "Working as a Full-Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications.",
     icon: "work",
   },
-
+  {
+    year : "may-2025 - present",
+    title: "SDET inter",
+    company: "Brokersaathi",
+    description: "Working as a Software Developer & tester with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications and testing.",
+    icon: "work",
+  }
 ];
