@@ -2,6 +2,13 @@ import { TimelineItem } from '../types';
 
 export const timelineData: TimelineItem[] = [
   {
+    year : "may-2025 - present",
+    title: "SDET inter",
+    company: "Brokersaathi",
+    description: "Working as a Software Developer & tester with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications and testing.",
+    icon: "work",
+  },
+  {
     year: "June-2024 - Nov-2024",
     title: "Frontend Developer Intern",
     company: "Virtual Code Pvt. Ltd.",
@@ -9,7 +16,7 @@ export const timelineData: TimelineItem[] = [
     icon: "work",
   },
   {
-    year: "2022-2025 (Expected)",
+    year: "2022-2025",
     title: "B.Tech in Computer Science Engineering",
     company: "Dronacharya College of Engineering",
     description: "Currently pursuing a B.Tech in Computer Science Engineering. Expected to graduate in 2025.",
@@ -29,11 +36,5 @@ export const timelineData: TimelineItem[] = [
     description: "Working as a Full-Stack Developer with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications.",
     icon: "work",
   },
-  {
-    year : "may-2025 - present",
-    title: "SDET inter",
-    company: "Brokersaathi",
-    description: "Working as a Software Developer & tester with expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js) to build scalable and efficient web applications and testing.",
-    icon: "work",
-  }
+  
 ];

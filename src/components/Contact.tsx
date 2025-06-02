@@ -15,8 +15,8 @@ export default function Contact() {
 
     try {
       setIsSubmitting(true);
-      console.log('Sending email...');
-      const response = await emailjs.sendForm(
+      
+      await emailjs.sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
@@ -26,7 +26,6 @@ export default function Contact() {
       toast.success('Message sent successfully!');
       formRef.current.reset();
     } catch (error) {
-      console.error('EmailJS Error:', error);
       toast.error('Failed to send message. Please try again.');
     } finally {
       setIsSubmitting(false);
