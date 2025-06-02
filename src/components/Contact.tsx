@@ -99,12 +99,13 @@ export default function Contact() {
                 name="user_name"
                 id="name"
                 required
+                placeholder='Enter Your Name...'
                 className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-700 dark:text-white"
               />
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300" >
                 Email
               </label>
               <input
@@ -112,6 +113,7 @@ export default function Contact() {
                 name="user_email"
                 id="email"
                 required
+                placeholder='Enter Email...'
                 className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-700 dark:text-white"
               />
             </div>
@@ -125,6 +127,7 @@ export default function Contact() {
                 name="message"
                 rows={4}
                 required
+                placeholder='Enter Message...'
                 className="mt-1 block w-full rounded-md border-gray-300 dark:border-gray-600 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 dark:bg-gray-700 dark:text-white"
               />
             </div>
